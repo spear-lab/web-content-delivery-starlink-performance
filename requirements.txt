@@ -1,0 +1,16 @@
+airportsdata==20250224
+Cartopy==0.22.0
+dnspython==2.8.0
+geopandas==0.14.0
+graphviz==0.20.3
+haversine==2.8.0
+joypy==0.2.6
+jsonlines==4.0.0
+matplotlib==3.7.2
+numpy==1.25.2
+pandas==2.0.3
+pyasn==1.6.1
+pytz==2023.3
+Requests==2.32.5
+scipy==1.17.0
+tqdm==4.66.1
