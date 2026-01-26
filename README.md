@@ -40,6 +40,5 @@ cd web-content-delivery-starlink-performance
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cd code
 jupyter nbconvert --to=html --execute starlink_cdn_performance_analysis.ipynb
 ```
