@@ -29,7 +29,7 @@ Low Earth Orbit (LEO) satellite ISPs promise universal Internet connectivity, ye
   ## 💾 Dataset
 
 The data necessary for the plots needs to be downloaded before starting and is available at [mediaTUM](https://mediatum.ub.tum.de/1840504) with instructions on how to set it up. 
-After unzipping the dataset, please make sure the "dataset folder" is setup in the same directory.
+After unzipping the dataset, please make sure the "dataset folder" is setup in the same directory i.e. the root directory where code folder is present.
 
 ## 📊 Reproducibility Instructions
 All plots were created with Python3.9.6. We recommend following our instructions to create a virtual Python environment with the package versions that we used.
@@ -40,5 +40,6 @@ cd web-content-delivery-starlink-performance
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+cd code
 jupyter nbconvert --to=html --execute starlink_cdn_performance_analysis.ipynb
 ```
